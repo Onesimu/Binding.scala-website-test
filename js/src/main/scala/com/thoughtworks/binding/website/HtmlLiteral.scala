@@ -29,11 +29,7 @@ object HtmlLiteral extends Sample {
   
   @dom def inlineStyle = {
     <section>
-      <style><![CDATA[
-        .highlight {
-          background-color:gold
-        }
-      ]]></style>
+
       <p class="highlight">Binding.scala真好用！</p>
     </section>
   }

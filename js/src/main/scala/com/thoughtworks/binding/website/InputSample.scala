@@ -11,11 +11,13 @@ import org.scalajs.dom.html.Input
  */
 object InputSample extends Sample {
 
+
+      //<input oninput={ event: Event => value := dom.currentTarget[Input].value }/>
   @dom
   override def render = {
     val value = Var("")
     <div>
-      <input oninput={ event: Event => value := dom.currentTarget[Input].value }/>
+
       Your input value is { value.bind }
     </div>
   }

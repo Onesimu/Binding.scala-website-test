@@ -14,13 +14,13 @@ object TableSample extends Sample {
   @dom
   override def render = {
 
+// onclick={event: Event => data.get += Contact(Var("Yang Bo"), Var("yang.bo@rea-group.com"))}
     val data = Vars.empty[Contact]
 
     <section>
       <div>
         <button
-        onclick={event: Event =>
-          data.get += Contact(Var("Yang Bo"), Var("yang.bo@rea-group.com"))}>
+        >
           Add a contact
         </button>
       </div>

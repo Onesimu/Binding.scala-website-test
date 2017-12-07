@@ -1,8 +1,8 @@
-site.settings
+//site.settings
 
-ghpages.settings
+//ghpages.settings
 
-git.remoteRepo := "git@github.com:ThoughtWorksInc/Binding.scala.git"
+//git.remoteRepo := "git@github.com:ThoughtWorksInc/Binding.scala.git"
 
 val `macro` = project
 

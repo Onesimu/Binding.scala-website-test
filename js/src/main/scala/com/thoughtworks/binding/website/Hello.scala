@@ -9,7 +9,7 @@ object Hello extends Sample {
   override def render = {
     val logs = Vars("Hello", "Binding.scala")
     <div>
-      { for { log <- logs } yield <div>{ log }</div> }
+      { logs.map{<div>{ _.bind }</div>}  }
     </div>
   }
 
